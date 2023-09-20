@@ -1,15 +1,66 @@
 body {
     margin: 0;
+    background-image: url('editedBg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: #100e13;
+}
+
+.gitHubLogo {
+    filter: invert(100%);
+    width: 80px;
+    height: 100%;
+}
+
+
+
+/* Place holder text colour for input element*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+}
+
+.pipePurple {
+  
+}
+
+.drone {
+    width: 250px;
+}
+
+main {  
+    max-width: 1080px;
+    border: 1px solid white;
+    height: 200rem;
+    margin: auto;
+}
+
+header a {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
-    padding: 1rem;
+    font-size: 20px;
+    padding: 2rem;
+    align-items: center;
 }
 
-header a {
-    text-decoration: none;
-    color: white;
+header div {
+    display: flex;
+    height: 40px;
+    justify-content: center;
 }
+input {
+    width: 250px;
+    font-size: 20px;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: rgba(169, 169, 169, 0.346);
+}
+
